@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LogInApp</string>
+    <string name="text_name1">Enter Your Name Here</string>
+    <string name="text_name2">type here</string>
+    <string name="text_name3">Name:</string>
+    <string name="text_name4">Click When Done</string>
+
+</resources>

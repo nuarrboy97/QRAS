@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical"
+    tools:context="com.thealteria.loginapp.Register">
+
+    <LinearLayout
+        android:id="@+id/rlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/coda"
+            android:text="Welcome to EAS"
+            android:textColor="#000"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            app:srcCompat="@drawable/eas"
+            tools:srcCompat="@drawable/eas" />
+
+        <EditText
+            android:id="@+id/luser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/etstyle"
+            android:fontFamily="@font/coda"
+            android:hint="Username"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/lpass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/etstyle"
+            android:fontFamily="@font/coda"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            android:singleLine="true" />
+
+        <CheckBox
+            android:id="@+id/showPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coda"
+            android:paddingLeft="8dp"
+            android:text="Show Password"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btnstylesel"
+            android:clickable="true"
+            android:fontFamily="@font/coda"
+            android:text="Log In as       Student"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/login2"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btnstylesel"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:fontFamily="@font/coda"
+            android:text="Log In  as   Lecturer"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignBottom="@id/rlay"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                                                                                                              "
+            android:background="@drawable/textline"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/regis"
+            android:paddingTop="8dp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="Don't have account? Sign up."/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

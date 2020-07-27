@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A3F44"
+    android:foregroundTint="#FFFFFF"
+    android:padding="20dp"
+    tools:context="com.thealteria.loginapp.QRGenerator">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btnstylesel"
+        android:onClick="onClick"
+        android:text="Generate"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/coda"
+        android:hint="Enter Subject to generate QR Code"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

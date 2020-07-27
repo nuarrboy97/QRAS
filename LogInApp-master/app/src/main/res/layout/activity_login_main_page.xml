@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context="com.thealteria.loginapp.LoginMainPage">
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/view"
+        android:text="Click to view"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/btnstylesel"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/btnstylesel"
+
+        android:id="@+id/logout"
+        android:text="Log Out"
+        android:layout_marginTop="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/showAll"/>
+    </ScrollView>
+
+</LinearLayout>
